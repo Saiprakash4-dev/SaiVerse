@@ -48,7 +48,7 @@ const resumeContent = {
   contact: {
     email: "saiprakashtummala@gmail.com",
     phone: "603-514-1872",
-    linkedIn: "https://www.linkedin.com/in/sai-prakash-408454804722222222/",
+    linkedIn: "https://www.linkedin.com/in/sai-tummala-746359191/",
     github: "https://github.com/Saiprakash4-dev"
   }
 };
