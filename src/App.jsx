@@ -7,6 +7,7 @@ import Contact from './components/Contact';
 import resumeContent from './resumeContent';
 import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
 import './App.css';
+import Avatar from './components/Avatar';
 
 const navItems = [
   { id: 'about', label: 'About' },
@@ -48,6 +49,9 @@ function App() {
     <div className="app-shell">
       <aside className="app-sidebar">
         <div className="sidebar-content">
+          <div className="sidebar-avatar">
+            <Avatar src={profile.image} name={derivedName} size={120} />
+          </div>
           <p className="sidebar-kicker">Portfolio</p>
           <h1 className="sidebar-name">{derivedName}</h1>
           <h2 className="sidebar-role">{heroTitle}</h2>
